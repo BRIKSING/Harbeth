@@ -17,7 +17,7 @@ public struct TextureLoader {
     public static let defaultOptions = [
         .textureUsage: NSNumber(value: TextureLoader.usage.rawValue),
         .generateMipmaps: NSNumber(value: false),
-        .SRGB: NSNumber(value: false)
+        .SRGB: NSNumber(value: true)
     ] as [MTKTextureLoader.Option: Any]
     
     /// A metal texture.
